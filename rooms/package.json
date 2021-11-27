@@ -1,0 +1,17 @@
+{
+  "name": "rooms-css",
+  "version": "1.0.0",
+  "description": "To book a room in co-working sapces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Hady",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "postcss-cli": "^9.0.2"
+  }
+}
