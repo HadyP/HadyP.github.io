@@ -1,0 +1,42 @@
+$primary-color: #ffd700;
+@import 'animate.css';
+@import '~loaders.css/src/animations/pacman.scss';
+@import '~loaders.css/src/animations/semi-circle-spin.scss';
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('./assets/fonts/helvetica-neu.ttf');
+}
+
+@font-face {
+    font-family: 'La Belle Aurore';
+    src: url('./assets/fonts/LaBelleAurore.woff2');
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('./assets/fonts/CoolveticaRg-Regular.woff2');
+}
+
+p{
+    font-family: 'Helvetica Neue';
+}
+input,
+textarea{
+    font-family: 'Helvetica Neue';
+}
+
+
+.loader-active{
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    animation: fadeOut 1s 1s;
+    animation-fill-mode: forwards;
+}
